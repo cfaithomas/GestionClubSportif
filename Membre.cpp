@@ -37,6 +37,7 @@ void Membre::enleverSport(Sport &sport) {
         if(sportsPatriques[i].getNom()==sport.getNom()) //recherche sur le nom
         {
             sportsPatriques.erase(sportsPatriques.begin()+i); //deplacement de l"iterateur à la position puis effacement
+            break;
         }
     }
 }
