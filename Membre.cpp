@@ -26,7 +26,7 @@ bool Membre::pratique(int sport) {
     return sport>=0&&sport<sportsPatriques.size();
 }
 
-void Membre::ajouterSport(Sport &sport) {
+void Membre::ajouterSport(Sport &sport)  {
     sportsPatriques.push_back(sport);
 
 }

@@ -3,4 +3,4 @@ project(GestionClubSportif)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(GestionClubSportif main.cpp Sport.cpp Sport.h Membre.cpp Membre.h)
+add_executable(GestionClubSportif main.cpp Sport.cpp Sport.h Membre.cpp Membre.h Club.cpp Club.h)

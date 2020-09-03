@@ -28,7 +28,7 @@ public:
 
     bool pratique(int sport);
 
-    void ajouterSport(Sport &sport);
+    void ajouterSport(Sport &sport) ;
 
     void enleverSport(Sport &sport);
 
